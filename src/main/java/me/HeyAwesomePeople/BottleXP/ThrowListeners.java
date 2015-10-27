@@ -1,5 +1,6 @@
 package me.HeyAwesomePeople.BottleXP;
 
+import org.bukkit.entity.ThrownExpBottle;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.ExpBottleEvent;
@@ -9,7 +10,8 @@ public class ThrowListeners implements Listener {
 
     @EventHandler
     public void onPlayerThrowXpBottle(ExpBottleEvent e) {
-        e.
+        ThrownExpBottle bottle = e.getEntity();
+
     }
 
 }
