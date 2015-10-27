@@ -1,0 +1,6 @@
+name: ParallaxGens
+main: me.HeyAwesomePeople.pgc.ParallaxGensConverter
+version: 1.0
+commands:
+  chestgenerators:
+    description: Main command
