@@ -14,4 +14,9 @@ public class ThrowListeners implements Listener {
 
     }
 
+    @EventHandler
+    public void onXpBottleThrown(PotionSplashEvent e) {
+
+    }
+
 }
