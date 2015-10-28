@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.ExperienceOrb;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.ThrownExpBottle;
+import org.bukkit.entity.ThrownPotion;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
@@ -37,6 +38,11 @@ public class ThrowListeners implements Listener {
         if (e.getEntity() instanceof ExperienceOrb && e.getTarget() instanceof Player) {
             
         }
+    }
+
+    @EventHandler
+    public void onThrowPotion(PotionSplashEvent e) {
+
     }
 
 }
