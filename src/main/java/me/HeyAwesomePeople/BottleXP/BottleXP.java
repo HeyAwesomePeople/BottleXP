@@ -14,6 +14,8 @@ public class BottleXP extends JavaPlugin implements CommandExecutor{
     @Override
     public void onEnable() {
         instance = this;
+		
+		String s = "Professional editing";
 
         getServer().getPluginManager().registerEvents(new ThrowListeners(), this);
     }
